@@ -62,6 +62,7 @@ if (isset($_GET['_token']) && isset($_GET['product_id'])) {
                 <h3 class="text-xl"><?= $product_row['name']; ?></h3>
                 <p class="mb-4"><?= $product_row['description']; ?></p>
                 <div class="mb-3">
+                    <h4 class="text-dark text-lg mb-0 mr-3">Shipping Fee : <?= $product_row['shipping'] ?></h4>
                     <h4 class="text-dark text-lg mb-0 mr-3">Stocks : <?= $product_row['stock'] ?></h4>
                     <h4 class="text-dark text-lg mb-0 mr-3">Prize : ₱ <?= number_format($product_row['prize']) ?></h4>
                 </div>
@@ -136,27 +137,7 @@ if (isset($_GET['_token']) && isset($_GET['product_id'])) {
     </div>
     <!-- Shop Detail End -->
 
-    
-<!-- comment section -->
-
-
-
-<form method="post" action="submit_comment.php" enctype="multipart/form-data">
-  <label for="name">Name:</label>
-  <input type="text" name="name" required>
-  
-  <label for="email">Email:</label>
-  <input type="email" name="email">
-  
-  <label for="comment">Comment:</label>
-  <textarea name="comment" required></textarea>
-  
-  <label for="image">Image:</label>
-  <input type="file" name="image">
-  
-  <input type="submit" value="Submit">
-</form>
-
+    <!-- create comment section-->
 
 
     <!-- Products Start -->
@@ -271,8 +252,6 @@ if (isset($_GET['_token']) && isset($_GET['product_id'])) {
             });
         });
     </script>
-
-
 </body>
 
 </html>
