@@ -1,0 +1,4554 @@
+[
+  {
+    "id": 1,
+    "brgyCode": 31401001,
+    "brgyDesc": "Banaban",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 2,
+    "brgyCode": 31401002,
+    "brgyDesc": "Baybay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 3,
+    "brgyCode": 31401003,
+    "brgyDesc": "Binagbag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 4,
+    "brgyCode": 31401005,
+    "brgyDesc": "Donacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 5,
+    "brgyCode": 31401006,
+    "brgyDesc": "Encanto",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 6,
+    "brgyCode": 31401007,
+    "brgyDesc": "Laog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 7,
+    "brgyCode": 31401008,
+    "brgyDesc": "Marungko",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 8,
+    "brgyCode": 31401009,
+    "brgyDesc": "Niugan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 9,
+    "brgyCode": 31401010,
+    "brgyDesc": "Paltok",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 10,
+    "brgyCode": 31401013,
+    "brgyDesc": "Pulong Yantok",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 11,
+    "brgyCode": 31401014,
+    "brgyDesc": "San Roque (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 12,
+    "brgyCode": 31401015,
+    "brgyDesc": "Santa Cruz (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 13,
+    "brgyCode": 31401016,
+    "brgyDesc": "Santa Lucia",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 14,
+    "brgyCode": 31401017,
+    "brgyDesc": "Santo Cristo (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 15,
+    "brgyCode": 31401018,
+    "brgyDesc": "Sulucan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 16,
+    "brgyCode": 31401019,
+    "brgyDesc": "Taboc",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031401"
+  },
+  {
+    "id": 17,
+    "brgyCode": 31402002,
+    "brgyDesc": "Borol 2nd",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 18,
+    "brgyCode": 31402003,
+    "brgyDesc": "Borol 1st",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 19,
+    "brgyCode": 31402004,
+    "brgyDesc": "Dalig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 20,
+    "brgyCode": 31402005,
+    "brgyDesc": "Longos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 21,
+    "brgyCode": 31402007,
+    "brgyDesc": "Panginay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 22,
+    "brgyCode": 31402008,
+    "brgyDesc": "Pulong Gubat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 23,
+    "brgyCode": 31402009,
+    "brgyDesc": "San Juan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 24,
+    "brgyCode": 31402010,
+    "brgyDesc": "Santol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 25,
+    "brgyCode": 31402011,
+    "brgyDesc": "Wawa (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031402"
+  },
+  {
+    "id": 26,
+    "brgyCode": 31403001,
+    "brgyDesc": "Bagong Nayon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 27,
+    "brgyCode": 31403002,
+    "brgyDesc": "Barangca",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 28,
+    "brgyCode": 31403003,
+    "brgyDesc": "Calantipay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 29,
+    "brgyCode": 31403004,
+    "brgyDesc": "Catulinan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 30,
+    "brgyCode": 31403005,
+    "brgyDesc": "Concepcion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 31,
+    "brgyCode": 31403006,
+    "brgyDesc": "Hinukay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 32,
+    "brgyCode": 31403007,
+    "brgyDesc": "Makinabang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 33,
+    "brgyCode": 31403008,
+    "brgyDesc": "Matangtubig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 34,
+    "brgyCode": 31403010,
+    "brgyDesc": "Pagala",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 35,
+    "brgyCode": 31403011,
+    "brgyDesc": "Paitan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 36,
+    "brgyCode": 31403012,
+    "brgyDesc": "Piel",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 37,
+    "brgyCode": 31403013,
+    "brgyDesc": "Pinagbarilan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 38,
+    "brgyCode": 31403014,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 39,
+    "brgyCode": 31403016,
+    "brgyDesc": "Sabang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 40,
+    "brgyCode": 31403017,
+    "brgyDesc": "San Jose",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 41,
+    "brgyCode": 31403018,
+    "brgyDesc": "San Roque",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 42,
+    "brgyCode": 31403019,
+    "brgyDesc": "Santa Barbara",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 43,
+    "brgyCode": 31403020,
+    "brgyDesc": "Santo Cristo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 44,
+    "brgyCode": 31403021,
+    "brgyDesc": "Santo Niño",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 45,
+    "brgyCode": 31403022,
+    "brgyDesc": "Subic",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 46,
+    "brgyCode": 31403023,
+    "brgyDesc": "Sulivan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 47,
+    "brgyCode": 31403024,
+    "brgyDesc": "Tangos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 48,
+    "brgyCode": 31403025,
+    "brgyDesc": "Tarcan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 49,
+    "brgyCode": 31403026,
+    "brgyDesc": "Tiaong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 50,
+    "brgyCode": 31403027,
+    "brgyDesc": "Tibag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 51,
+    "brgyCode": 31403028,
+    "brgyDesc": "Tilapayong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 52,
+    "brgyCode": 31403030,
+    "brgyDesc": "Virgen delas Flores",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031403"
+  },
+  {
+    "id": 53,
+    "brgyCode": 31404001,
+    "brgyDesc": "Antipona",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 54,
+    "brgyCode": 31404002,
+    "brgyDesc": "Bagumbayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 55,
+    "brgyCode": 31404003,
+    "brgyDesc": "Bambang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 56,
+    "brgyCode": 31404004,
+    "brgyDesc": "Batia",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 57,
+    "brgyCode": 31404005,
+    "brgyDesc": "Biñang 1st",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 58,
+    "brgyCode": 31404006,
+    "brgyDesc": "Biñang 2nd",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 59,
+    "brgyCode": 31404007,
+    "brgyDesc": "Bolacan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 60,
+    "brgyCode": 31404008,
+    "brgyDesc": "Bundukan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 61,
+    "brgyCode": 31404009,
+    "brgyDesc": "Bunlo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 62,
+    "brgyCode": 31404010,
+    "brgyDesc": "Caingin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 63,
+    "brgyCode": 31404011,
+    "brgyDesc": "Duhat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 64,
+    "brgyCode": 31404012,
+    "brgyDesc": "Igulot",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 65,
+    "brgyCode": 31404013,
+    "brgyDesc": "Lolomboy",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 66,
+    "brgyCode": 31404014,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 67,
+    "brgyCode": 31404015,
+    "brgyDesc": "Sulucan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 68,
+    "brgyCode": 31404016,
+    "brgyDesc": "Taal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 69,
+    "brgyCode": 31404017,
+    "brgyDesc": "Tambobong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 70,
+    "brgyCode": 31404018,
+    "brgyDesc": "Turo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 71,
+    "brgyCode": 31404019,
+    "brgyDesc": "Wakas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031404"
+  },
+  {
+    "id": 72,
+    "brgyCode": 31405001,
+    "brgyDesc": "Bagumbayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 73,
+    "brgyCode": 31405002,
+    "brgyDesc": "Balubad",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 74,
+    "brgyCode": 31405003,
+    "brgyDesc": "Bambang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 75,
+    "brgyCode": 31405004,
+    "brgyDesc": "Matungao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 76,
+    "brgyCode": 31405005,
+    "brgyDesc": "Maysantol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 77,
+    "brgyCode": 31405006,
+    "brgyDesc": "Perez",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 78,
+    "brgyCode": 31405007,
+    "brgyDesc": "Pitpitan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 79,
+    "brgyCode": 31405009,
+    "brgyDesc": "San Francisco",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 80,
+    "brgyCode": 31405010,
+    "brgyDesc": "San Jose (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 81,
+    "brgyCode": 31405012,
+    "brgyDesc": "San Nicolas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 82,
+    "brgyCode": 31405013,
+    "brgyDesc": "Santa Ana",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 83,
+    "brgyCode": 31405014,
+    "brgyDesc": "Santa Ines",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 84,
+    "brgyCode": 31405015,
+    "brgyDesc": "Taliptip",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 85,
+    "brgyCode": 31405016,
+    "brgyDesc": "Tibig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031405"
+  },
+  {
+    "id": 86,
+    "brgyCode": 31406001,
+    "brgyDesc": "Bonga Mayor",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 87,
+    "brgyCode": 31406002,
+    "brgyDesc": "Bonga Menor",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 88,
+    "brgyCode": 31406003,
+    "brgyDesc": "Buisan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 89,
+    "brgyCode": 31406004,
+    "brgyDesc": "Camachilihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 90,
+    "brgyCode": 31406005,
+    "brgyDesc": "Cambaog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 91,
+    "brgyCode": 31406006,
+    "brgyDesc": "Catacte",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 92,
+    "brgyCode": 31406007,
+    "brgyDesc": "Liciada",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 93,
+    "brgyCode": 31406008,
+    "brgyDesc": "Malamig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 94,
+    "brgyCode": 31406009,
+    "brgyDesc": "Malawak",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 95,
+    "brgyCode": 31406010,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 96,
+    "brgyCode": 31406011,
+    "brgyDesc": "San Pedro",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 97,
+    "brgyCode": 31406012,
+    "brgyDesc": "Talampas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 98,
+    "brgyCode": 31406013,
+    "brgyDesc": "Tanawan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 99,
+    "brgyCode": 31406014,
+    "brgyDesc": "Tibagan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031406"
+  },
+  {
+    "id": 100,
+    "brgyCode": 31407001,
+    "brgyDesc": "Balite",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 101,
+    "brgyCode": 31407002,
+    "brgyDesc": "Balungao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 102,
+    "brgyCode": 31407004,
+    "brgyDesc": "Buguion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 103,
+    "brgyCode": 31407005,
+    "brgyDesc": "Bulusan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 104,
+    "brgyCode": 31407006,
+    "brgyDesc": "Calizon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 105,
+    "brgyCode": 31407007,
+    "brgyDesc": "Calumpang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 106,
+    "brgyCode": 31407008,
+    "brgyDesc": "Caniogan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 107,
+    "brgyCode": 31407009,
+    "brgyDesc": "Corazon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 108,
+    "brgyCode": 31407010,
+    "brgyDesc": "Frances",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 109,
+    "brgyCode": 31407011,
+    "brgyDesc": "Gatbuca",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 110,
+    "brgyCode": 31407012,
+    "brgyDesc": "Gugo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 111,
+    "brgyCode": 31407013,
+    "brgyDesc": "Iba Este",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 112,
+    "brgyCode": 31407014,
+    "brgyDesc": "Iba O'Este",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 113,
+    "brgyCode": 31407015,
+    "brgyDesc": "Longos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 114,
+    "brgyCode": 31407016,
+    "brgyDesc": "Meysulao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 115,
+    "brgyCode": 31407017,
+    "brgyDesc": "Meyto",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 116,
+    "brgyCode": 31407018,
+    "brgyDesc": "Palimbang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 117,
+    "brgyCode": 31407019,
+    "brgyDesc": "Panducot",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 118,
+    "brgyCode": 31407020,
+    "brgyDesc": "Pio Cruzcosa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 119,
+    "brgyCode": 31407021,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 120,
+    "brgyCode": 31407022,
+    "brgyDesc": "Pungo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 121,
+    "brgyCode": 31407023,
+    "brgyDesc": "San Jose",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 122,
+    "brgyCode": 31407024,
+    "brgyDesc": "San Marcos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 123,
+    "brgyCode": 31407025,
+    "brgyDesc": "San Miguel",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 124,
+    "brgyCode": 31407026,
+    "brgyDesc": "Santa Lucia",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 125,
+    "brgyCode": 31407027,
+    "brgyDesc": "Santo Niño",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 126,
+    "brgyCode": 31407028,
+    "brgyDesc": "Sapang Bayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 127,
+    "brgyCode": 31407029,
+    "brgyDesc": "Sergio Bayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 128,
+    "brgyCode": 31407030,
+    "brgyDesc": "Sucol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031407"
+  },
+  {
+    "id": 129,
+    "brgyCode": 31408001,
+    "brgyDesc": "Cutcut",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 130,
+    "brgyCode": 31408002,
+    "brgyDesc": "Daungan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 131,
+    "brgyCode": 31408003,
+    "brgyDesc": "Ilang-Ilang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 132,
+    "brgyCode": 31408004,
+    "brgyDesc": "Malis",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 133,
+    "brgyCode": 31408005,
+    "brgyDesc": "Panginay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 134,
+    "brgyCode": 31408006,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 135,
+    "brgyCode": 31408007,
+    "brgyDesc": "Pritil",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 136,
+    "brgyCode": 31408008,
+    "brgyDesc": "Pulong Gubat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 137,
+    "brgyCode": 31408009,
+    "brgyDesc": "Santa Cruz",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 138,
+    "brgyCode": 31408010,
+    "brgyDesc": "Santa Rita",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 139,
+    "brgyCode": 31408011,
+    "brgyDesc": "Tabang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 140,
+    "brgyCode": 31408012,
+    "brgyDesc": "Tabe",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 141,
+    "brgyCode": 31408013,
+    "brgyDesc": "Tiaong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 142,
+    "brgyCode": 31408015,
+    "brgyDesc": "Tuktukan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031408"
+  },
+  {
+    "id": 143,
+    "brgyCode": 31409001,
+    "brgyDesc": "Abulalas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 144,
+    "brgyCode": 31409002,
+    "brgyDesc": "Carillo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 145,
+    "brgyCode": 31409003,
+    "brgyDesc": "Iba",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 146,
+    "brgyCode": 31409004,
+    "brgyDesc": "Mercado",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 147,
+    "brgyCode": 31409005,
+    "brgyDesc": "Palapat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 148,
+    "brgyCode": 31409006,
+    "brgyDesc": "Pugad",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 149,
+    "brgyCode": 31409007,
+    "brgyDesc": "Sagrada Familia",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 150,
+    "brgyCode": 31409008,
+    "brgyDesc": "San Agustin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 151,
+    "brgyCode": 31409009,
+    "brgyDesc": "San Isidro",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 152,
+    "brgyCode": 31409011,
+    "brgyDesc": "San Jose",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 153,
+    "brgyCode": 31409012,
+    "brgyDesc": "San Juan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 154,
+    "brgyCode": 31409013,
+    "brgyDesc": "San Miguel",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 155,
+    "brgyCode": 31409014,
+    "brgyDesc": "San Nicolas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 156,
+    "brgyCode": 31409015,
+    "brgyDesc": "San Pablo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 157,
+    "brgyCode": 31409016,
+    "brgyDesc": "San Pascual",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 158,
+    "brgyCode": 31409017,
+    "brgyDesc": "San Pedro",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 159,
+    "brgyCode": 31409018,
+    "brgyDesc": "San Roque",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 160,
+    "brgyCode": 31409019,
+    "brgyDesc": "San Sebastian",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 161,
+    "brgyCode": 31409020,
+    "brgyDesc": "Santa Cruz",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 162,
+    "brgyCode": 31409021,
+    "brgyDesc": "Santa Elena",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 163,
+    "brgyCode": 31409022,
+    "brgyDesc": "Santa Monica",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 164,
+    "brgyCode": 31409023,
+    "brgyDesc": "Santo Niño (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 165,
+    "brgyCode": 31409024,
+    "brgyDesc": "Santo Rosario",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 166,
+    "brgyCode": 31409025,
+    "brgyDesc": "Tampok",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 167,
+    "brgyCode": 31409026,
+    "brgyDesc": "Tibaguin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 168,
+    "brgyCode": 31409027,
+    "brgyDesc": "Iba-Ibayo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031409"
+  },
+  {
+    "id": 169,
+    "brgyCode": 31410001,
+    "brgyDesc": "Anilao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 170,
+    "brgyCode": 31410002,
+    "brgyDesc": "Atlag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 171,
+    "brgyCode": 31410003,
+    "brgyDesc": "Babatnin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 172,
+    "brgyCode": 31410004,
+    "brgyDesc": "Bagna",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 173,
+    "brgyCode": 31410005,
+    "brgyDesc": "Bagong Bayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 174,
+    "brgyCode": 31410006,
+    "brgyDesc": "Balayong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 175,
+    "brgyCode": 31410007,
+    "brgyDesc": "Balite",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 176,
+    "brgyCode": 31410008,
+    "brgyDesc": "Bangkal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 177,
+    "brgyCode": 31410010,
+    "brgyDesc": "Barihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 178,
+    "brgyCode": 31410012,
+    "brgyDesc": "Bulihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 179,
+    "brgyCode": 31410013,
+    "brgyDesc": "Bungahan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 180,
+    "brgyCode": 31410014,
+    "brgyDesc": "Dakila",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 181,
+    "brgyCode": 31410015,
+    "brgyDesc": "Guinhawa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 182,
+    "brgyCode": 31410016,
+    "brgyDesc": "Caingin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 183,
+    "brgyCode": 31410017,
+    "brgyDesc": "Calero",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 184,
+    "brgyCode": 31410018,
+    "brgyDesc": "Caliligawan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 185,
+    "brgyCode": 31410019,
+    "brgyDesc": "Canalate",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 186,
+    "brgyCode": 31410020,
+    "brgyDesc": "Caniogan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 187,
+    "brgyCode": 31410021,
+    "brgyDesc": "Catmon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 188,
+    "brgyCode": 31410022,
+    "brgyDesc": "Ligas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 189,
+    "brgyCode": 31410023,
+    "brgyDesc": "Liyang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 190,
+    "brgyCode": 31410025,
+    "brgyDesc": "Longos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 191,
+    "brgyCode": 31410026,
+    "brgyDesc": "Look 1st",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 192,
+    "brgyCode": 31410027,
+    "brgyDesc": "Look 2nd",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 193,
+    "brgyCode": 31410028,
+    "brgyDesc": "Lugam",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 194,
+    "brgyCode": 31410029,
+    "brgyDesc": "Mabolo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 195,
+    "brgyCode": 31410031,
+    "brgyDesc": "Mambog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 196,
+    "brgyCode": 31410032,
+    "brgyDesc": "Masile",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 197,
+    "brgyCode": 31410033,
+    "brgyDesc": "Matimbo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 198,
+    "brgyCode": 31410034,
+    "brgyDesc": "Mojon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 199,
+    "brgyCode": 31410035,
+    "brgyDesc": "Namayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 200,
+    "brgyCode": 31410036,
+    "brgyDesc": "Niugan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 201,
+    "brgyCode": 31410037,
+    "brgyDesc": "Pamarawan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 202,
+    "brgyCode": 31410038,
+    "brgyDesc": "Panasahan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 203,
+    "brgyCode": 31410039,
+    "brgyDesc": "Pinagbakahan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 204,
+    "brgyCode": 31410041,
+    "brgyDesc": "San Agustin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 205,
+    "brgyCode": 31410042,
+    "brgyDesc": "San Gabriel",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 206,
+    "brgyCode": 31410043,
+    "brgyDesc": "San Juan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 207,
+    "brgyCode": 31410044,
+    "brgyDesc": "San Pablo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 208,
+    "brgyCode": 31410045,
+    "brgyDesc": "San Vicente (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 209,
+    "brgyCode": 31410046,
+    "brgyDesc": "Santiago",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 210,
+    "brgyCode": 31410047,
+    "brgyDesc": "Santisima Trinidad",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 211,
+    "brgyCode": 31410048,
+    "brgyDesc": "Santo Cristo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 212,
+    "brgyCode": 31410049,
+    "brgyDesc": "Santo Niño (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 213,
+    "brgyCode": 31410050,
+    "brgyDesc": "Santo Rosario (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 214,
+    "brgyCode": 31410051,
+    "brgyDesc": "Santol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 215,
+    "brgyCode": 31410052,
+    "brgyDesc": "Sumapang Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 216,
+    "brgyCode": 31410053,
+    "brgyDesc": "Sumapang Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 217,
+    "brgyCode": 31410054,
+    "brgyDesc": "Taal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 218,
+    "brgyCode": 31410055,
+    "brgyDesc": "Tikay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 219,
+    "brgyCode": 31410056,
+    "brgyDesc": "Cofradia",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031410"
+  },
+  {
+    "id": 220,
+    "brgyCode": 31411001,
+    "brgyDesc": "Abangan Norte",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 221,
+    "brgyCode": 31411002,
+    "brgyDesc": "Abangan Sur",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 222,
+    "brgyCode": 31411003,
+    "brgyDesc": "Ibayo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 223,
+    "brgyCode": 31411004,
+    "brgyDesc": "Lambakin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 224,
+    "brgyCode": 31411005,
+    "brgyDesc": "Lias",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 225,
+    "brgyCode": 31411006,
+    "brgyDesc": "Loma de Gato",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 226,
+    "brgyCode": 31411007,
+    "brgyDesc": "Nagbalon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 227,
+    "brgyCode": 31411008,
+    "brgyDesc": "Patubig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 228,
+    "brgyCode": 31411009,
+    "brgyDesc": "Poblacion I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 229,
+    "brgyCode": 31411010,
+    "brgyDesc": "Poblacion II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 230,
+    "brgyCode": 31411011,
+    "brgyDesc": "Prenza I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 231,
+    "brgyCode": 31411012,
+    "brgyDesc": "Prenza II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 232,
+    "brgyCode": 31411013,
+    "brgyDesc": "Santa Rosa I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 233,
+    "brgyCode": 31411014,
+    "brgyDesc": "Santa Rosa II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 234,
+    "brgyCode": 31411015,
+    "brgyDesc": "Saog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 235,
+    "brgyCode": 31411016,
+    "brgyDesc": "Tabing Ilog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031411"
+  },
+  {
+    "id": 236,
+    "brgyCode": 31412001,
+    "brgyDesc": "Bagbaguin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 237,
+    "brgyCode": 31412002,
+    "brgyDesc": "Bahay Pare",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 238,
+    "brgyCode": 31412003,
+    "brgyDesc": "Bancal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 239,
+    "brgyCode": 31412004,
+    "brgyDesc": "Banga",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 240,
+    "brgyCode": 31412005,
+    "brgyDesc": "Bayugo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 241,
+    "brgyCode": 31412006,
+    "brgyDesc": "Calvario",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 242,
+    "brgyCode": 31412007,
+    "brgyDesc": "Camalig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 243,
+    "brgyCode": 31412008,
+    "brgyDesc": "Hulo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 244,
+    "brgyCode": 31412009,
+    "brgyDesc": "Iba",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 245,
+    "brgyCode": 31412010,
+    "brgyDesc": "Langka",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 246,
+    "brgyCode": 31412011,
+    "brgyDesc": "Lawa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 247,
+    "brgyCode": 31412012,
+    "brgyDesc": "Libtong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 248,
+    "brgyCode": 31412013,
+    "brgyDesc": "Liputan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 249,
+    "brgyCode": 31412014,
+    "brgyDesc": "Longos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 250,
+    "brgyCode": 31412015,
+    "brgyDesc": "Malhacan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 251,
+    "brgyCode": 31412016,
+    "brgyDesc": "Pajo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 252,
+    "brgyCode": 31412017,
+    "brgyDesc": "Pandayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 253,
+    "brgyCode": 31412018,
+    "brgyDesc": "Pantoc",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 254,
+    "brgyCode": 31412019,
+    "brgyDesc": "Perez",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 255,
+    "brgyCode": 31412020,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 256,
+    "brgyCode": 31412021,
+    "brgyDesc": "Saluysoy",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 257,
+    "brgyCode": 31412022,
+    "brgyDesc": "Saint Francis (Gasak)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 258,
+    "brgyCode": 31412023,
+    "brgyDesc": "Tugatog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 259,
+    "brgyCode": 31412024,
+    "brgyDesc": "Ubihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 260,
+    "brgyCode": 31412025,
+    "brgyDesc": "Zamora",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 261,
+    "brgyCode": 31412026,
+    "brgyDesc": "Caingin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031412"
+  },
+  {
+    "id": 262,
+    "brgyCode": 31413003,
+    "brgyDesc": "Bangkal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 263,
+    "brgyCode": 31413004,
+    "brgyDesc": "Baraka",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 264,
+    "brgyCode": 31413006,
+    "brgyDesc": "Bigte",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 265,
+    "brgyCode": 31413007,
+    "brgyDesc": "Bitungol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 266,
+    "brgyCode": 31413015,
+    "brgyDesc": "Matictic",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 267,
+    "brgyCode": 31413016,
+    "brgyDesc": "Minuyan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 268,
+    "brgyCode": 31413020,
+    "brgyDesc": "Partida",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 269,
+    "brgyCode": 31413021,
+    "brgyDesc": "Pinagtulayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 270,
+    "brgyCode": 31413022,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 271,
+    "brgyCode": 31413024,
+    "brgyDesc": "San Mateo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 272,
+    "brgyCode": 31413031,
+    "brgyDesc": "Tigbe",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 273,
+    "brgyCode": 31413032,
+    "brgyDesc": "San Lorenzo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 274,
+    "brgyCode": 31413033,
+    "brgyDesc": "Friendship Village Resources (FVR)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031413"
+  },
+  {
+    "id": 275,
+    "brgyCode": 31414001,
+    "brgyDesc": "Binuangan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 276,
+    "brgyCode": 31414002,
+    "brgyDesc": "Catanghalan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 277,
+    "brgyCode": 31414003,
+    "brgyDesc": "Hulo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 278,
+    "brgyCode": 31414004,
+    "brgyDesc": "Lawa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 279,
+    "brgyCode": 31414005,
+    "brgyDesc": "Salambao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 280,
+    "brgyCode": 31414006,
+    "brgyDesc": "Paco",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 281,
+    "brgyCode": 31414007,
+    "brgyDesc": "Pag-asa (Pob.)",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 282,
+    "brgyCode": 31414008,
+    "brgyDesc": "Paliwas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 283,
+    "brgyCode": 31414009,
+    "brgyDesc": "Panghulo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 284,
+    "brgyCode": 31414010,
+    "brgyDesc": "San Pascual",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 285,
+    "brgyCode": 31414011,
+    "brgyDesc": "Tawiran",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031414"
+  },
+  {
+    "id": 286,
+    "brgyCode": 31415001,
+    "brgyDesc": "Bagbaguin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 287,
+    "brgyCode": 31415002,
+    "brgyDesc": "Bagong Barrio",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 288,
+    "brgyCode": 31415003,
+    "brgyDesc": "Bunsuran III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 289,
+    "brgyCode": 31415004,
+    "brgyDesc": "Bunsuran I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 290,
+    "brgyCode": 31415005,
+    "brgyDesc": "Bunsuran II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 291,
+    "brgyCode": 31415006,
+    "brgyDesc": "Cacarong Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 292,
+    "brgyCode": 31415007,
+    "brgyDesc": "Cacarong Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 293,
+    "brgyCode": 31415008,
+    "brgyDesc": "Cupang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 294,
+    "brgyCode": 31415009,
+    "brgyDesc": "Malibong Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 295,
+    "brgyCode": 31415010,
+    "brgyDesc": "Malibong Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 296,
+    "brgyCode": 31415011,
+    "brgyDesc": "Manatal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 297,
+    "brgyCode": 31415012,
+    "brgyDesc": "Mapulang Lupa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 298,
+    "brgyCode": 31415013,
+    "brgyDesc": "Masagana",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 299,
+    "brgyCode": 31415014,
+    "brgyDesc": "Masuso",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 300,
+    "brgyCode": 31415015,
+    "brgyDesc": "Pinagkuartelan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 301,
+    "brgyCode": 31415016,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 302,
+    "brgyCode": 31415017,
+    "brgyDesc": "Real de Cacarong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 303,
+    "brgyCode": 31415018,
+    "brgyDesc": "San Roque",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 304,
+    "brgyCode": 31415019,
+    "brgyDesc": "Siling Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 305,
+    "brgyCode": 31415020,
+    "brgyDesc": "Siling Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 306,
+    "brgyCode": 31415021,
+    "brgyDesc": "Baka-bakahan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 307,
+    "brgyCode": 31415022,
+    "brgyDesc": "Santo Niño",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031415"
+  },
+  {
+    "id": 308,
+    "brgyCode": 31416001,
+    "brgyDesc": "Binakod",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 309,
+    "brgyCode": 31416002,
+    "brgyDesc": "Kapitangan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 310,
+    "brgyCode": 31416003,
+    "brgyDesc": "Malumot",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 311,
+    "brgyCode": 31416004,
+    "brgyDesc": "Masukol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 312,
+    "brgyCode": 31416006,
+    "brgyDesc": "Pinalagdan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 313,
+    "brgyCode": 31416007,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 314,
+    "brgyCode": 31416009,
+    "brgyDesc": "San Isidro I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 315,
+    "brgyCode": 31416010,
+    "brgyDesc": "San Isidro II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 316,
+    "brgyCode": 31416011,
+    "brgyDesc": "San Jose",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 317,
+    "brgyCode": 31416012,
+    "brgyDesc": "San Roque",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 318,
+    "brgyCode": 31416013,
+    "brgyDesc": "San Vicente",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 319,
+    "brgyCode": 31416014,
+    "brgyDesc": "Santa Cruz",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 320,
+    "brgyCode": 31416015,
+    "brgyDesc": "Santo Niño",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 321,
+    "brgyCode": 31416016,
+    "brgyDesc": "Santo Rosario",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031416"
+  },
+  {
+    "id": 322,
+    "brgyCode": 31417001,
+    "brgyDesc": "Agnaya",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 323,
+    "brgyCode": 31417002,
+    "brgyDesc": "Bagong Silang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 324,
+    "brgyCode": 31417003,
+    "brgyDesc": "Banga I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 325,
+    "brgyCode": 31417004,
+    "brgyDesc": "Banga II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 326,
+    "brgyCode": 31417005,
+    "brgyDesc": "Bintog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 327,
+    "brgyCode": 31417006,
+    "brgyDesc": "Bulihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 328,
+    "brgyCode": 31417007,
+    "brgyDesc": "Culianin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 329,
+    "brgyCode": 31417008,
+    "brgyDesc": "Dampol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 330,
+    "brgyCode": 31417010,
+    "brgyDesc": "Lagundi",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 331,
+    "brgyCode": 31417011,
+    "brgyDesc": "Lalangan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 332,
+    "brgyCode": 31417012,
+    "brgyDesc": "Lumang Bayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 333,
+    "brgyCode": 31417014,
+    "brgyDesc": "Parulan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 334,
+    "brgyCode": 31417015,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 335,
+    "brgyCode": 31417016,
+    "brgyDesc": "Rueda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 336,
+    "brgyCode": 31417017,
+    "brgyDesc": "San Jose",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 337,
+    "brgyCode": 31417018,
+    "brgyDesc": "Santa Ines",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 338,
+    "brgyCode": 31417019,
+    "brgyDesc": "Santo Niño",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 339,
+    "brgyCode": 31417020,
+    "brgyDesc": "Sipat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 340,
+    "brgyCode": 31417021,
+    "brgyDesc": "Tabang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031417"
+  },
+  {
+    "id": 341,
+    "brgyCode": 31418001,
+    "brgyDesc": "Balatong A",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 342,
+    "brgyCode": 31418002,
+    "brgyDesc": "Balatong B",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 343,
+    "brgyCode": 31418003,
+    "brgyDesc": "Cutcot",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 344,
+    "brgyCode": 31418005,
+    "brgyDesc": "Dampol I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 345,
+    "brgyCode": 31418006,
+    "brgyDesc": "Dampol II-A",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 346,
+    "brgyCode": 31418007,
+    "brgyDesc": "Dampol II-B",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 347,
+    "brgyCode": 31418008,
+    "brgyDesc": "Dulong Malabon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 348,
+    "brgyCode": 31418009,
+    "brgyDesc": "Inaon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 349,
+    "brgyCode": 31418010,
+    "brgyDesc": "Longos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 350,
+    "brgyCode": 31418011,
+    "brgyDesc": "Lumbac",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 351,
+    "brgyCode": 31418018,
+    "brgyDesc": "Paltao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 352,
+    "brgyCode": 31418020,
+    "brgyDesc": "Penabatan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 353,
+    "brgyCode": 31418022,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 354,
+    "brgyCode": 31418025,
+    "brgyDesc": "Santa Peregrina",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 355,
+    "brgyCode": 31418026,
+    "brgyDesc": "Santo Cristo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 356,
+    "brgyCode": 31418033,
+    "brgyDesc": "Taal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 357,
+    "brgyCode": 31418034,
+    "brgyDesc": "Tabon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 358,
+    "brgyCode": 31418035,
+    "brgyDesc": "Tibag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 359,
+    "brgyCode": 31418037,
+    "brgyDesc": "Tinejero",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031418"
+  },
+  {
+    "id": 360,
+    "brgyCode": 31419001,
+    "brgyDesc": "Akle",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 361,
+    "brgyCode": 31419002,
+    "brgyDesc": "Alagao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 362,
+    "brgyCode": 31419003,
+    "brgyDesc": "Anyatam",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 363,
+    "brgyCode": 31419006,
+    "brgyDesc": "Bagong Barrio",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 364,
+    "brgyCode": 31419007,
+    "brgyDesc": "Basuit",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 365,
+    "brgyCode": 31419008,
+    "brgyDesc": "Bubulong Munti",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 366,
+    "brgyCode": 31419009,
+    "brgyDesc": "Bubulong Malaki",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 367,
+    "brgyCode": 31419010,
+    "brgyDesc": "Buhol na Mangga",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 368,
+    "brgyCode": 31419011,
+    "brgyDesc": "Bulusukan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 369,
+    "brgyCode": 31419012,
+    "brgyDesc": "Calasag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 370,
+    "brgyCode": 31419013,
+    "brgyDesc": "Calawitan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 371,
+    "brgyCode": 31419014,
+    "brgyDesc": "Casalat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 372,
+    "brgyCode": 31419015,
+    "brgyDesc": "Gabihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 373,
+    "brgyCode": 31419016,
+    "brgyDesc": "Garlang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 374,
+    "brgyCode": 31419017,
+    "brgyDesc": "Lapnit",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 375,
+    "brgyCode": 31419018,
+    "brgyDesc": "Maasim",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 376,
+    "brgyCode": 31419019,
+    "brgyDesc": "Makapilapil",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 377,
+    "brgyCode": 31419020,
+    "brgyDesc": "Malipampang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 378,
+    "brgyCode": 31419021,
+    "brgyDesc": "Matimbubong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 379,
+    "brgyCode": 31419022,
+    "brgyDesc": "Nabaong Garlang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 380,
+    "brgyCode": 31419023,
+    "brgyDesc": "Palapala",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 381,
+    "brgyCode": 31419024,
+    "brgyDesc": "Pasong Bangkal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 382,
+    "brgyCode": 31419025,
+    "brgyDesc": "Pinaod",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 383,
+    "brgyCode": 31419026,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 384,
+    "brgyCode": 31419027,
+    "brgyDesc": "Pulong Tamo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 385,
+    "brgyCode": 31419028,
+    "brgyDesc": "San Juan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 386,
+    "brgyCode": 31419029,
+    "brgyDesc": "Santa Catalina Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 387,
+    "brgyCode": 31419030,
+    "brgyDesc": "Santa Catalina Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 388,
+    "brgyCode": 31419031,
+    "brgyDesc": "Sapang Dayap",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 389,
+    "brgyCode": 31419032,
+    "brgyDesc": "Sapang Putik",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 390,
+    "brgyCode": 31419033,
+    "brgyDesc": "Sapang Putol",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 391,
+    "brgyCode": 31419034,
+    "brgyDesc": "Sumandig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 392,
+    "brgyCode": 31419035,
+    "brgyDesc": "Telepatio",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 393,
+    "brgyCode": 31419036,
+    "brgyDesc": "Upig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 394,
+    "brgyCode": 31419037,
+    "brgyDesc": "Umpucan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 395,
+    "brgyCode": 31419038,
+    "brgyDesc": "Mataas na Parang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031419"
+  },
+  {
+    "id": 396,
+    "brgyCode": 31420001,
+    "brgyDesc": "Bagong Buhay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 397,
+    "brgyCode": 31420002,
+    "brgyDesc": "Dulong Bayan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 398,
+    "brgyCode": 31420003,
+    "brgyDesc": "Gaya-gaya",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 399,
+    "brgyCode": 31420004,
+    "brgyDesc": "Kaypian",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 400,
+    "brgyCode": 31420005,
+    "brgyDesc": "Kaybanban",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 401,
+    "brgyCode": 31420006,
+    "brgyDesc": "Minuyan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 402,
+    "brgyCode": 31420007,
+    "brgyDesc": "Muzon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 403,
+    "brgyCode": 31420008,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 404,
+    "brgyCode": 31420009,
+    "brgyDesc": "Santo Cristo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 405,
+    "brgyCode": 31420010,
+    "brgyDesc": "Sapang Palay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 406,
+    "brgyCode": 31420011,
+    "brgyDesc": "Tungkong Mangga",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 407,
+    "brgyCode": 31420012,
+    "brgyDesc": "Citrus",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 408,
+    "brgyCode": 31420013,
+    "brgyDesc": "San Martin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 409,
+    "brgyCode": 31420014,
+    "brgyDesc": "Santa Cruz",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 410,
+    "brgyCode": 31420015,
+    "brgyDesc": "Fatima",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 411,
+    "brgyCode": 31420016,
+    "brgyDesc": "San Pedro",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 412,
+    "brgyCode": 31420017,
+    "brgyDesc": "San Rafael",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 413,
+    "brgyCode": 31420018,
+    "brgyDesc": "Santo Niño",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 414,
+    "brgyCode": 31420019,
+    "brgyDesc": "Assumption",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 415,
+    "brgyCode": 31420020,
+    "brgyDesc": "Bagong Buhay II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 416,
+    "brgyCode": 31420021,
+    "brgyDesc": "Bagong Buhay III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 417,
+    "brgyCode": 31420022,
+    "brgyDesc": "Ciudad Real",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 418,
+    "brgyCode": 31420023,
+    "brgyDesc": "Fatima II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 419,
+    "brgyCode": 31420024,
+    "brgyDesc": "Fatima III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 420,
+    "brgyCode": 31420025,
+    "brgyDesc": "Fatima IV",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 421,
+    "brgyCode": 31420026,
+    "brgyDesc": "Fatima V",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 422,
+    "brgyCode": 31420027,
+    "brgyDesc": "Francisco Homes-Guijo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 423,
+    "brgyCode": 31420028,
+    "brgyDesc": "Francisco Homes-Mulawin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 424,
+    "brgyCode": 31420029,
+    "brgyDesc": "Francisco Homes-Narra",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 425,
+    "brgyCode": 31420030,
+    "brgyDesc": "Francisco Homes-Yakal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 426,
+    "brgyCode": 31420031,
+    "brgyDesc": "Graceville",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 427,
+    "brgyCode": 31420032,
+    "brgyDesc": "Gumaoc Central",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 428,
+    "brgyCode": 31420033,
+    "brgyDesc": "Gumaoc East",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 429,
+    "brgyCode": 31420034,
+    "brgyDesc": "Gumaoc West",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 430,
+    "brgyCode": 31420035,
+    "brgyDesc": "Lawang Pari",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 431,
+    "brgyCode": 31420036,
+    "brgyDesc": "Maharlika",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 432,
+    "brgyCode": 31420037,
+    "brgyDesc": "Minuyan II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 433,
+    "brgyCode": 31420038,
+    "brgyDesc": "Minuyan III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 434,
+    "brgyCode": 31420039,
+    "brgyDesc": "Minuyan IV",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 435,
+    "brgyCode": 31420040,
+    "brgyDesc": "Minuyan V",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 436,
+    "brgyCode": 31420041,
+    "brgyDesc": "Minuyan Proper",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 437,
+    "brgyCode": 31420042,
+    "brgyDesc": "Paradise III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 438,
+    "brgyCode": 31420043,
+    "brgyDesc": "Poblacion I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 439,
+    "brgyCode": 31420044,
+    "brgyDesc": "San Isidro",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 440,
+    "brgyCode": 31420045,
+    "brgyDesc": "San Manuel",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 441,
+    "brgyCode": 31420046,
+    "brgyDesc": "San Martin II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 442,
+    "brgyCode": 31420047,
+    "brgyDesc": "San Martin III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 443,
+    "brgyCode": 31420048,
+    "brgyDesc": "San Martin IV",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 444,
+    "brgyCode": 31420049,
+    "brgyDesc": "San Rafael I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 445,
+    "brgyCode": 31420050,
+    "brgyDesc": "San Rafael III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 446,
+    "brgyCode": 31420051,
+    "brgyDesc": "San Rafael IV",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 447,
+    "brgyCode": 31420052,
+    "brgyDesc": "San Rafael V",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 448,
+    "brgyCode": 31420053,
+    "brgyDesc": "San Roque",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 449,
+    "brgyCode": 31420054,
+    "brgyDesc": "Santa Cruz II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 450,
+    "brgyCode": 31420055,
+    "brgyDesc": "Santa Cruz III",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 451,
+    "brgyCode": 31420056,
+    "brgyDesc": "Santa Cruz IV",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 452,
+    "brgyCode": 31420057,
+    "brgyDesc": "Santa Cruz V",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 453,
+    "brgyCode": 31420058,
+    "brgyDesc": "Santo Niño II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 454,
+    "brgyCode": 31420059,
+    "brgyDesc": "St. Martin de Porres",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031420"
+  },
+  {
+    "id": 455,
+    "brgyCode": 31421001,
+    "brgyDesc": "Bagong Silang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 456,
+    "brgyCode": 31421002,
+    "brgyDesc": "Balaong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 457,
+    "brgyCode": 31421003,
+    "brgyDesc": "Balite",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 458,
+    "brgyCode": 31421004,
+    "brgyDesc": "Bantog",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 459,
+    "brgyCode": 31421006,
+    "brgyDesc": "Bardias",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 460,
+    "brgyCode": 31421007,
+    "brgyDesc": "Baritan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 461,
+    "brgyCode": 31421008,
+    "brgyDesc": "Batasan Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 462,
+    "brgyCode": 31421009,
+    "brgyDesc": "Batasan Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 463,
+    "brgyCode": 31421011,
+    "brgyDesc": "Biak-na-Bato",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 464,
+    "brgyCode": 31421012,
+    "brgyDesc": "Biclat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 465,
+    "brgyCode": 31421013,
+    "brgyDesc": "Buga",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 466,
+    "brgyCode": 31421014,
+    "brgyDesc": "Buliran",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 467,
+    "brgyCode": 31421015,
+    "brgyDesc": "Bulualto",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 468,
+    "brgyCode": 31421016,
+    "brgyDesc": "Calumpang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 469,
+    "brgyCode": 31421019,
+    "brgyDesc": "Cambio",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 470,
+    "brgyCode": 31421020,
+    "brgyDesc": "Camias",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 471,
+    "brgyCode": 31421021,
+    "brgyDesc": "Ilog-Bulo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 472,
+    "brgyCode": 31421023,
+    "brgyDesc": "King Kabayo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 473,
+    "brgyCode": 31421024,
+    "brgyDesc": "Labne",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 474,
+    "brgyCode": 31421025,
+    "brgyDesc": "Lambakin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 475,
+    "brgyCode": 31421027,
+    "brgyDesc": "Magmarale",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 476,
+    "brgyCode": 31421028,
+    "brgyDesc": "Malibay",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 477,
+    "brgyCode": 31421030,
+    "brgyDesc": "Mandile",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 478,
+    "brgyCode": 31421031,
+    "brgyDesc": "Masalipit",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 479,
+    "brgyCode": 31421032,
+    "brgyDesc": "Pacalag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 480,
+    "brgyCode": 31421033,
+    "brgyDesc": "Paliwasan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 481,
+    "brgyCode": 31421035,
+    "brgyDesc": "Partida",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 482,
+    "brgyCode": 31421036,
+    "brgyDesc": "Pinambaran",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 483,
+    "brgyCode": 31421037,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 484,
+    "brgyCode": 31421038,
+    "brgyDesc": "Pulong Bayabas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 485,
+    "brgyCode": 31421039,
+    "brgyDesc": "Sacdalan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 486,
+    "brgyCode": 31421040,
+    "brgyDesc": "Salacot",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 487,
+    "brgyCode": 31421041,
+    "brgyDesc": "Salangan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 488,
+    "brgyCode": 31421043,
+    "brgyDesc": "San Agustin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 489,
+    "brgyCode": 31421044,
+    "brgyDesc": "San Jose",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 490,
+    "brgyCode": 31421045,
+    "brgyDesc": "San Juan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 491,
+    "brgyCode": 31421046,
+    "brgyDesc": "San Vicente",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 492,
+    "brgyCode": 31421047,
+    "brgyDesc": "Santa Ines",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 493,
+    "brgyCode": 31421048,
+    "brgyDesc": "Santa Lucia",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 494,
+    "brgyCode": 31421049,
+    "brgyDesc": "Santa Rita Bata",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 495,
+    "brgyCode": 31421050,
+    "brgyDesc": "Santa Rita Matanda",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 496,
+    "brgyCode": 31421051,
+    "brgyDesc": "Sapang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 497,
+    "brgyCode": 31421052,
+    "brgyDesc": "Sibul",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 498,
+    "brgyCode": 31421054,
+    "brgyDesc": "Tartaro",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 499,
+    "brgyCode": 31421055,
+    "brgyDesc": "Tibagan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 500,
+    "brgyCode": 31421056,
+    "brgyDesc": "Bagong Pag-asa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 501,
+    "brgyCode": 31421057,
+    "brgyDesc": "Pulong Duhat",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 502,
+    "brgyCode": 31421058,
+    "brgyDesc": "Maligaya",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 503,
+    "brgyCode": 31421059,
+    "brgyDesc": "Tigpalas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031421"
+  },
+  {
+    "id": 504,
+    "brgyCode": 31422001,
+    "brgyDesc": "BMA-Balagtas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 505,
+    "brgyCode": 31422002,
+    "brgyDesc": "Banca-banca",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 506,
+    "brgyCode": 31422003,
+    "brgyDesc": "Caingin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 507,
+    "brgyCode": 31422004,
+    "brgyDesc": "Coral na Bato",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 508,
+    "brgyCode": 31422005,
+    "brgyDesc": "Cruz na Daan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 509,
+    "brgyCode": 31422006,
+    "brgyDesc": "Dagat-dagatan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 510,
+    "brgyCode": 31422007,
+    "brgyDesc": "Diliman I",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 511,
+    "brgyCode": 31422008,
+    "brgyDesc": "Diliman II",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 512,
+    "brgyCode": 31422009,
+    "brgyDesc": "Capihan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 513,
+    "brgyCode": 31422010,
+    "brgyDesc": "Libis",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 514,
+    "brgyCode": 31422011,
+    "brgyDesc": "Lico",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 515,
+    "brgyCode": 31422012,
+    "brgyDesc": "Maasim",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 516,
+    "brgyCode": 31422013,
+    "brgyDesc": "Mabalas-balas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 517,
+    "brgyCode": 31422014,
+    "brgyDesc": "Maguinao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 518,
+    "brgyCode": 31422015,
+    "brgyDesc": "Maronguillo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 519,
+    "brgyCode": 31422016,
+    "brgyDesc": "Paco",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 520,
+    "brgyCode": 31422017,
+    "brgyDesc": "Pansumaloc",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 521,
+    "brgyCode": 31422018,
+    "brgyDesc": "Pantubig",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 522,
+    "brgyCode": 31422019,
+    "brgyDesc": "Pasong Bangkal",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 523,
+    "brgyCode": 31422020,
+    "brgyDesc": "Pasong Callos",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 524,
+    "brgyCode": 31422021,
+    "brgyDesc": "Pasong Intsik",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 525,
+    "brgyCode": 31422022,
+    "brgyDesc": "Pinacpinacan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 526,
+    "brgyCode": 31422023,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 527,
+    "brgyCode": 31422024,
+    "brgyDesc": "Pulo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 528,
+    "brgyCode": 31422025,
+    "brgyDesc": "Pulong Bayabas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 529,
+    "brgyCode": 31422026,
+    "brgyDesc": "Salapungan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 530,
+    "brgyCode": 31422027,
+    "brgyDesc": "Sampaloc",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 531,
+    "brgyCode": 31422028,
+    "brgyDesc": "San Agustin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 532,
+    "brgyCode": 31422030,
+    "brgyDesc": "San Roque",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 533,
+    "brgyCode": 31422031,
+    "brgyDesc": "Talacsan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 534,
+    "brgyCode": 31422032,
+    "brgyDesc": "Tambubong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 535,
+    "brgyCode": 31422033,
+    "brgyDesc": "Tukod",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 536,
+    "brgyCode": 31422034,
+    "brgyDesc": "Ulingao",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 537,
+    "brgyCode": 31422035,
+    "brgyDesc": "Sapang Pahalang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031422"
+  },
+  {
+    "id": 538,
+    "brgyCode": 31423001,
+    "brgyDesc": "Bagbaguin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 539,
+    "brgyCode": 31423002,
+    "brgyDesc": "Balasing",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 540,
+    "brgyCode": 31423003,
+    "brgyDesc": "Buenavista",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 541,
+    "brgyCode": 31423004,
+    "brgyDesc": "Bulac",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 542,
+    "brgyCode": 31423005,
+    "brgyDesc": "Camangyanan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 543,
+    "brgyCode": 31423006,
+    "brgyDesc": "Catmon",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 544,
+    "brgyCode": 31423007,
+    "brgyDesc": "Cay Pombo",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 545,
+    "brgyCode": 31423008,
+    "brgyDesc": "Caysio",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 546,
+    "brgyCode": 31423009,
+    "brgyDesc": "Guyong",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 547,
+    "brgyCode": 31423010,
+    "brgyDesc": "Lalakhan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 548,
+    "brgyCode": 31423011,
+    "brgyDesc": "Mag-asawang Sapa",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 549,
+    "brgyCode": 31423013,
+    "brgyDesc": "Mahabang Parang",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 550,
+    "brgyCode": 31423014,
+    "brgyDesc": "Manggahan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 551,
+    "brgyCode": 31423015,
+    "brgyDesc": "Parada",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 552,
+    "brgyCode": 31423016,
+    "brgyDesc": "Poblacion",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 553,
+    "brgyCode": 31423017,
+    "brgyDesc": "Pulong Buhangin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 554,
+    "brgyCode": 31423018,
+    "brgyDesc": "San Gabriel",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 555,
+    "brgyCode": 31423019,
+    "brgyDesc": "San Jose Patag",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 556,
+    "brgyCode": 31423020,
+    "brgyDesc": "San Vicente",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 557,
+    "brgyCode": 31423021,
+    "brgyDesc": "Santa Clara",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 558,
+    "brgyCode": 31423022,
+    "brgyDesc": "Santa Cruz",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 559,
+    "brgyCode": 31423023,
+    "brgyDesc": "Silangan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 560,
+    "brgyCode": 31423024,
+    "brgyDesc": "Tabing Bakod",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 561,
+    "brgyCode": 31423025,
+    "brgyDesc": "Tumana",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031423"
+  },
+  {
+    "id": 562,
+    "brgyCode": 31424001,
+    "brgyDesc": "Bayabas",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 563,
+    "brgyCode": 31424002,
+    "brgyDesc": "Kabayunan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 564,
+    "brgyCode": 31424003,
+    "brgyDesc": "Camachin",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 565,
+    "brgyCode": 31424004,
+    "brgyDesc": "Camachile",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 566,
+    "brgyCode": 31424005,
+    "brgyDesc": "Kalawakan",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 567,
+    "brgyCode": 31424006,
+    "brgyDesc": "Pulong Sampalok",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 568,
+    "brgyCode": 31424007,
+    "brgyDesc": "Talbak",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  },
+  {
+    "id": 569,
+    "brgyCode": 31424008,
+    "brgyDesc": "Sapang Bulak",
+    "regCode": 3,
+    "provCode": "0314",
+    "citymunCode": "031424"
+  }
+]

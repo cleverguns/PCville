@@ -1,0 +1,253 @@
+[
+  {
+    "id": 1,
+    "psgcCode": 31401000,
+    "citymunDesc": "ANGAT",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031401",
+    "zipCode": 3012,
+    "shipping": 268
+  },
+  {
+    "id": 2,
+    "psgcCode": 31402000,
+    "citymunDesc": "BALAGTAS (BIGAA)",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031402",
+    "zipCode": 3016,
+    "shipping": 163
+  },
+  {
+    "id": 3,
+    "psgcCode": 31403000,
+    "citymunDesc": "BALIUAG",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031403",
+    "zipCode": 3006,
+    "shipping": 160
+  },
+  {
+    "id": 4,
+    "psgcCode": 31404000,
+    "citymunDesc": "BOCAUE",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031404",
+    "zipCode": 3018,
+    "shipping": 211
+    
+  },
+  {
+    "id": 5,
+    "psgcCode": 31405000,
+    "citymunDesc": "BULAKAN",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031405",
+    "zipCode": 3017,
+    "shipping": 155
+  },
+  {
+    "id": 6,
+    "psgcCode": 31406000,
+    "citymunDesc": "BUSTOS",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031406",
+    "zipCode": 3007,
+    "shipping": 181
+  },
+  {
+    "id": 7,
+    "psgcCode": 31407000,
+    "citymunDesc": "CALUMPIT",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031407",
+    "zipCode": 3003,
+    "shipping": 49
+  },
+  {
+    "id": 8,
+    "psgcCode": 31424000,
+    "citymunDesc": "DOÑA REMEDIOS TRINIDAD",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031424",
+    "zipCode": 3009,
+    "shipping": 270
+  },
+  {
+    "id": 9,
+    "psgcCode": 31408000,
+    "citymunDesc": "GUIGUINTO",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031408",
+    "zipCode": 3015,
+    "shipping": 141
+  },
+  {
+    "id": 10,
+    "psgcCode": 31409000,
+    "citymunDesc": "HAGONOY",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031409",
+    "zipCode": 3002,
+    "shipping": 139
+  },
+  {
+    "id": 11,
+    "psgcCode": 31410000,
+    "citymunDesc": "CITY OF MALOLOS (Capital)",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031410",
+    "zipCode": 3000,
+    "shipping": 92
+  },
+  {
+    "id": 12,
+    "psgcCode": 31411000,
+    "citymunDesc": "MARILAO",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031411",
+    "zipCode": 3019,
+    "shipping": 253
+  },
+  {
+    "id": 13,
+    "psgcCode": 31412000,
+    "citymunDesc": "CITY OF MEYCAUAYAN",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031412",
+    "zipCode": 3024,
+    "shipping": 235
+  },
+  {
+    "id": 14,
+    "psgcCode": 31412000,
+    "citymunDesc": "SAPANG PALAY MEYCAUAYAN",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031412",
+    "zipCode": 3020,
+    "shipping": 281
+  },
+  {
+    "id": 15,
+    "psgcCode": 31413000,
+    "citymunDesc": "NORZAGARAY",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031413",
+    "zipCode": 3013,
+    "shipping": 371
+  },
+  {
+    "id": 16,
+    "psgcCode": 31414000,
+    "citymunDesc": "OBANDO",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031414",
+    "zipCode": 3021,
+    "shipping": 214
+  },
+  {
+    "id": 17,
+    "psgcCode": 31415000,
+    "citymunDesc": "PANDI",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031415",
+    "zipCode": 3014,
+    "shipping": 205
+  },
+  {
+    "id": 18,
+    "psgcCode": 31416000,
+    "citymunDesc": "PAOMBONG",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031416",
+    "zipCode": 3001,
+    "shipping": 130
+  },
+  {
+    "id": 19,
+    "psgcCode": 31417000,
+    "citymunDesc": "PLARIDEL",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031417",
+    "zipCode": 3004,
+    "shipping": 118
+  },
+  {
+    "id": 20,
+    "psgcCode": 31418000,
+    "citymunDesc": "PULILAN",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031418",
+    "zipCode": 3005,
+    "shipping": 103
+  },
+  {
+    "id": 21,
+    "psgcCode": 31419000,
+    "citymunDesc": "SAN ILDEFONSO",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031419",
+    "zipCode": 3010,
+    "shipping": 290
+  },
+  {
+    "id": 22,
+    "psgcCode": 31420000,
+    "citymunDesc": "CITY OF SAN JOSE DEL MONTE",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031420",
+    "zipCode": 3023,
+    "shipping": 294
+  },
+  {
+    "id": 23,
+    "psgcCode": 31421000,
+    "citymunDesc": "SAN MIGUEL",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031421",
+    "zipCode": 3011,
+    "shipping": 339
+  },
+  {
+    "id": 24,
+    "psgcCode": 31422000,
+    "citymunDesc": "SAN RAFAEL",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031422",
+    "zipCode": 3008,
+    "shipping": 201
+  },
+  {
+    "id": 25,
+    "psgcCode": 31423000,
+    "citymunDesc": "SANTA MARIA",
+    "regDesc": 3,
+    "provCode": "0314",
+    "citymunCode": "031423",
+    "zipCode": 3022,
+    "shipping": 223
+  }
+]
