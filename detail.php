@@ -178,209 +178,90 @@ $product_name = $product['name'];
 
   <hr>
 
-  <!-- display comments -->
+ <!-- display comments -->
+<section class="comments">
+  <h3>Comments</h3>
   <?php
-    $query = "SELECT * FROM comments WHERE product_id='$product_id'";
-    $result = mysqli_query($conn, $query);
+  // get product comments
+  $sql = "SELECT comments.*, users.username FROM comments JOIN users ON comments.user_id = users.id WHERE comments.product_id = $product_id ORDER BY created_at DESC";
+  $result = mysqli_query($conn, $sql);
 
-    if(mysqli_num_rows($result) > 0) {
-      while($row = mysqli_fetch_assoc($result)) {
-        echo "<p><strong>" . $row['user_id'] . ":</strong> " . $row['comment'] . "</p>";
-      }
-    } else {
-      echo "<p>No comments yet.</p>";
+  // display comments
+  if(mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+      $comment_id = $row['id'];
+      $comment = $row['comment'];
+      $created_at = $row['created_at'];
+      $username = $row['username'];
+  ?>
+      <div class="comment">
+        <div class="comment-meta">
+          <span class="comment-author"><?php echo $username; ?></span>
+          <span class="comment-date"><?php echo date("M j, Y", strtotime($created_at)); ?></span>
+        </div>
+        <div class="comment-content">
+          <?php echo $comment; ?>
+        </div>
+      </div>
+  <?php
     }
+  } else {
+    echo "<p>No comments yet.</p>";
+  }
   ?>
 
   <!-- add comment form -->
-  
+  <h3>Add Comment</h3>
+  <?php if(isset($_SESSION['user_id'])) { ?>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea class="form-control" id="comment" name="comment" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="image">Image:</label>
+        <input type="file" class="form-control" id="image" name="image">
+      </div>
+      <button type="submit" name="submit_comment" class="btn btn-primary">Submit</button>
+    </form>
+  <?php } else { ?>
+    <p>Please <a href="login.php">log in</a> to add a comment.</p>
+  <?php } ?>
+</section>
 
-  <?php
-include('navbar.php');
+<!-- Products Start -->
+<section class="products">
+  <h2>Related Products</h2>
+  <div class="product-list">
+    <?php
+    // get related products
+    $sql = "SELECT * FROM products WHERE category_id = $category_id AND id != $product_id ORDER BY created_at DESC LIMIT 4";
+    $result = mysqli_query($conn, $sql);
 
-if (isset($_GET['product_id'])) {
-    $product_id = $_GET['product_id'];
-
-    $query = "SELECT * FROM tbl_products WHERE product_id = '$product_id'";
-    $result = mysqli_query($con, $query);
-    if (!$result) {
-        die('Error: ' . mysqli_error($con));
-    }
-    if (mysqli_num_rows($result) == 1) {
-        $row = mysqli_fetch_assoc($result);
-        $product_name = $row['product_name'];
-        $product_price = $row['product_price'];
-        $product_description = $row['product_description'];
-        $product_image = $row['product_image'];
-    } else {
-        echo "No product found.";
-    }
-}
-?>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="images/<?php echo $product_image; ?>" class="img-fluid" alt="Product Image">
+    if(mysqli_num_rows($result) > 0) {
+      while($row = mysqli_fetch_assoc($result)) {
+        $id = $row['id'];
+        $name = $row['name'];
+        $image = $row['image'];
+        $price = $row['price'];
+    ?>
+        <div class="product">
+          <a href="detail.php?id=<?php echo $id; ?>">
+            <img src="uploads/<?php echo $image; ?>" alt="<?php echo $name; ?>">
+            <h4><?php echo $name; ?></h4>
+            <div class="price">$<?php echo $price; ?></div>
+          </a>
         </div>
-        <div class="col-md-6">
-            <h2><?php echo $product_name; ?></h2>
-            <h4>Price: <?php echo $product_price; ?></h4>
-            <p><?php echo $product_description; ?></p>
-        </div>
-    </div>
-</div>
-
-
-<!-- add comment form -->
-<div class="add-comment">
-  <h3>Add a Comment</h3>
-  <?php 
-    // check if user is logged in
-    if(isset($_SESSION['user_id'])) { 
-  ?>
-  <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
-    <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
-    <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
-    <label for="comment">Comment:</label>
-    <textarea name="comment" id="comment" rows="5"></textarea>
-    <label for="photo">Photo:</label>
-    <input type="file" name="photo" id="photo">
-    <button type="submit" name="submit_comment">Submit</button>
-  </form>
-  <?php 
+    <?php
+      }
     } else {
-      // display message if user is not logged in
-      echo "<p>Please <a href='login.php'>log in</a> to add a comment.</p>";
+      echo "<p>No related products found.</p>";
     }
-  ?>
-</div>
-
-<?php
-   // process comment form submission
-   if(isset($_POST['submit_comment'])) {
-    // check if user is logged in
-    if(!isset($_SESSION['user_id'])) {
-      $error_msg = "You must be logged in to post a comment.";
-    } else {
-      $user_id = $_SESSION['user_id'];
-      $product_id = $_POST['product_id'];
-      $comment_text = $_POST['comment_text'];
-      $comment_image = $_FILES['comment_image'];
-      
-      // validate comment text
-      if(empty($comment_text)) {
-        $error_msg = "Comment cannot be empty.";
-      }
-      
-      // validate image file
-      if($comment_image['size'] > 0) {
-        $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif');
-        $file_extension = pathinfo($comment_image['name'], PATHINFO_EXTENSION);
-        
-        if(!in_array($file_extension, $allowed_extensions)) {
-          $error_msg = "Invalid file format. Only JPG, JPEG, PNG, and GIF are allowed.";
-        }
-      }
-      
-      // if there are no errors, insert comment into database
-      if(!isset($error_msg)) {
-        // upload image file
-        $comment_image_path = '';
-        if($comment_image['size'] > 0) {
-          $comment_image_path = 'uploads/' . uniqid() . '_' . $comment_image['name'];
-          move_uploaded_file($comment_image['tmp_name'], $comment_image_path);
-        }
-        
-        // insert comment into database
-        $query = "INSERT INTO comments (user_id, product_id, comment_text, comment_image_path) VALUES ('$user_id', '$product_id', '$comment_text', '$comment_image_path')";
-        $result = mysqli_query($con, $query);
-        
-        if($result) {
-          header("Location: detail.php?id=$product_id");
-          exit();
-        } else {
-          $error_msg = "Error adding comment.";
-        }
-      }
-    }
-  }
-  
-  // display error message if there is one
-  if(isset($error_msg)) {
-    echo "<div class='error-msg'>$error_msg</div>";
-  }
-?>
-<!-- add comment form -->
-<form method="post" action="" enctype="multipart/form-data">
-  <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
-  <div class="form-group">
-    <label for="comment_text">Comment:</label>
-    <textarea name="comment_text" id="comment_text" class="form-control" required><?php if(isset($_POST['comment_text'])) { echo $_POST['comment_text']; } ?></textarea>
+    ?>
   </div>
-  <div class="form-group">
-    <label for="comment_image">Image:</label>
-    <input type="file" name="comment_image" id="comment_image" class="form-control-file">
-  </div>
-  <button type="submit" name="submit_comment" class="btn btn-primary">Post Comment</button>
-</form>
+</section>
+<!-- Products End -->
 
-
-
-
-    <!-- Products Start -->
-    <div class="container-fluid py-5 border-top">
-        <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">You May Also Like</span></h2>
-        </div>
-        <div class="row px-xl-5 pb-3">
-            <?php
-
-            $product = $conn->query("SELECT * FROM tbl_products WHERE stock > 0 AND NOT product_id = '{$product_id}'");
-            foreach ($product as $row) {
-                if (isset($user_id)) {
-                    $cart_query = $conn->query("SELECT product_id FROM tbl_carts WHERE user_id = '{$user_id}' AND product_id = '{$row['product_id']}'");
-
-                    if ($cart_query->num_rows > 0) {
-                        $btn_cart = '
-                    <button data-user="' . $user_id . '" data-id="' . $row['product_id'] . '" class="btn btn-sm btn-danger float-right remove-cart"><i
-                                    class="fas fa-times mr-1"></i>Remove to cart</button>';
-                    } else {
-                        $btn_cart = '
-                    <button data-price="' . $row['prize'] . '" data-user="' . $user_id . '" data-id="' . $row['product_id'] . '" class="btn btn-sm btn-primary float-right add-cart"><i class="fas fa-shopping-cart mr-1"></i>Add To Cart</button>
-                    ';
-                    }
-                } else {
-                    $btn_cart = '
-                    <a href="#login" data-toggle="modal" data-target="#user-login" class="btn btn-sm btn-primary float-right"><i class="fas fa-shopping-cart mr-1"></i>Add To Cart</a>
-                    ';
-                }
-                echo ('
-                <div class="col-lg-3 col-md-4 pb-1">
-                    <div class="card product-item border-0 mb-4 rounded">
-                        <div class="card-header product-img position-relative overflow-hidden bg-transparent p-0">
-                            <img class="img-fluid w-100 bg-transparent" style="height: 230px;" src="wp-images/products/' . $row['product_photo'] . '" alt="">
-                        </div>
-                        <div class="card-body text-center px-2">
-                            <h6 class="text-truncate mb-2 font-weight-semi-bold">' . $row['name'] . '</h6>
-                            <div class="text-center">
-                                <h6>₱ ' . $row['prize'] . '</h6>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a href="detail.php?_token=' . $_SESSION['csrf_token'] . '&product_id=' . $row['product_id'] . '" class="btn btn-sm btn-secondary"><i class="fas fa-eye mr-1"></i>View Detail</a>
-                            
-                           ' . $btn_cart . '
-                        </div>
-                    </div>
-                 </div>
-                ');
-            }
-            ?>
-
-        </div>
-    </div>
-    <!-- Products End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
