@@ -137,9 +137,121 @@ if (isset($_GET['_token']) && isset($_GET['product_id'])) {
     </div>
     <!-- Shop Detail End -->
 
-    <!-- create comment section-->
+    <?php
+  session_start();
+  include('config.php');
+
+  // get product details
+ /*
+  $product_id = $_GET['id'];
+  $query = "SELECT * FROM products WHERE id='$product_id'";
+  $result = mysqli_query($conn, $query);
+*/
+  // get product details
+$product_id = $_GET['id'];
+$query = "SELECT * FROM products WHERE id='$product_id'";
+$result = mysqli_query($conn, $query);
+$product = mysqli_fetch_assoc($result);
+$product_name = $product['name'];
+
+  if(mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+      $product_name = $row['name'];
+      $product_desc = $row['description'];
+      $product_price = $row['price'];
+      $product_image = $row['image'];
+    }
+  }
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title><?php echo $product_name; ?> - PCville</title>
+</head>
+<body>
+
+  <h1><?php echo $product_name; ?></h1>
+  <p><?php echo $product_desc; ?></p>
+  <p><strong>Price:</strong> $<?php echo $product_price; ?></p>
+  <img src="<?php echo $product_image; ?>" width="300">
+
+  <hr>
+
+  <!-- display comments -->
+  <?php
+    $query = "SELECT * FROM comments WHERE product_id='$product_id'";
+    $result = mysqli_query($conn, $query);
+
+    if(mysqli_num_rows($result) > 0) {
+      while($row = mysqli_fetch_assoc($result)) {
+        echo "<p><strong>" . $row['user_id'] . ":</strong> " . $row['comment'] . "</p>";
+      }
+    } else {
+      echo "<p>No comments yet.</p>";
+    }
+  ?>
+
+  <!-- add comment form -->
+  
+
+  <?php
+include('navbar.php');
+
+if (isset($_GET['product_id'])) {
+    $product_id = $_GET['product_id'];
+
+    $query = "SELECT * FROM tbl_products WHERE product_id = '$product_id'";
+    $result = mysqli_query($con, $query);
+    if (!$result) {
+        die('Error: ' . mysqli_error($con));
+    }
+    if (mysqli_num_rows($result) == 1) {
+        $row = mysqli_fetch_assoc($result);
+        $product_name = $row['product_name'];
+        $product_price = $row['product_price'];
+        $product_description = $row['product_description'];
+        $product_image = $row['product_image'];
+    } else {
+        echo "No product found.";
+    }
+}
+?>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/<?php echo $product_image; ?>" class="img-fluid" alt="Product Image">
+        </div>
+        <div class="col-md-6">
+            <h2><?php echo $product_name; ?></h2>
+            <h4>Price: <?php echo $product_price; ?></h4>
+            <p><?php echo $product_description; ?></p>
+        </div>
+    </div>
+</div>
+
+<!-- add comment form -->
+<h2>Add a comment</h2>
+<form action="add_comment.php" method="POST" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea class="form-control" id="comment" name="comment" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="photo">Upload a photo</label>
+        <input type="file" class="form-control-file" id="photo" name="photo">
+    </div>
+    <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
+    <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<?php include('footer.php'); ?>
 
 
+
+<!-- end -->
     <!-- Products Start -->
     <div class="container-fluid py-5 border-top">
         <div class="text-center mb-4">
