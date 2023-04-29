@@ -309,42 +309,18 @@ if (isset($_GET['product_id'])) {
           header("Location: detail.php?id=$product_id");
           exit();
         } else {
-            $error_msg = "Error adding comment.";
-          }
+          $error_msg = "Error adding comment.";
         }
       }
-      
-      // display error message if there is one
-      if (isset($error_msg)) {
+    }
+    
+    // display error message if there is one
+    
+    if(isset($error_msg)) {
         echo "<div class='error-msg'>$error_msg</div>";
-      }
-      ?>
-      
-      <!-- add comment form -->
-      <div class="comment-form">
-        <h3>Leave a Comment</h3>
-        <form method="post" enctype="multipart/form-data">
-          <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
-          <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
-          <div class="form-group">
-            <input type="text" class="form-control" name="name" placeholder="Your Name">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" name="email" placeholder="Your Email">
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="comment" rows="5" placeholder="Your Comment"></textarea>
-          </div>
-          <div class="form-group">
-            <label for="image">Upload Image (Optional)</label>
-            <input type="file" class="form-control-file" name="image" id="image">
-          </div>
-          <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-      
-      <!-- Products Start -->
-      
+    }
+    ?>
+
 
 
 
