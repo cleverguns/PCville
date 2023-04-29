@@ -232,26 +232,26 @@ if (isset($_GET['product_id'])) {
 </div>
 
 <!-- add comment form -->
-<h2>Add a comment</h2>
-<form action="add_comment.php" method="POST" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="comment">Comment</label>
-        <textarea class="form-control" id="comment" name="comment" rows="3"></textarea>
-    </div>
-    <div class="form-group">
-        <label for="photo">Upload a photo</label>
-        <input type="file" class="form-control-file" id="photo" name="photo">
-    </div>
-    <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
-    <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-<?php include('footer.php'); ?>
 
 
 
-<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Products Start -->
     <div class="container-fluid py-5 border-top">
         <div class="text-center mb-4">
