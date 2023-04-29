@@ -1,0 +1,11 @@
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined index: role in /home/lixibvmm/public_html/delivery/dashboard.php on line 7
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: avatar in /home/lixibvmm/public_html/delivery/dashboard.php on line 47
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: user_name in /home/lixibvmm/public_html/delivery/dashboard.php on line 48
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: user_id in /home/lixibvmm/public_html/delivery/dashboard.php on line 145
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: user_id in /home/lixibvmm/public_html/delivery/dashboard.php on line 190
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: avatar in /home/lixibvmm/public_html/delivery/dashboard.php on line 192
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: user_id in /home/lixibvmm/public_html/delivery/dashboard.php on line 228
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: first_name in /home/lixibvmm/public_html/delivery/dashboard.php on line 232
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: last_name in /home/lixibvmm/public_html/delivery/dashboard.php on line 236
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: p_email in /home/lixibvmm/public_html/delivery/dashboard.php on line 240
+[28-Apr-2023 14:24:20 UTC] PHP Notice:  Undefined variable: user_id in /home/lixibvmm/public_html/delivery/dashboard.php on line 338

@@ -1,0 +1,100 @@
+[16-Mar-2023 15:18:02 UTC] PHP Notice:  Undefined index: price in /home/lixibvmm/public_html/wp-actions/addCart.php on line 6
+[16-Mar-2023 16:02:42 UTC] PHP Notice:  Undefined index: price in /home/lixibvmm/public_html/wp-actions/addCart.php on line 6
+[17-Mar-2023 15:32:59 UTC] PHP Notice:  Undefined index: csrf_token in /home/lixibvmm/public_html/wp-actions/verification.php on line 66
+[17-Mar-2023 16:19:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::saveBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 57 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:33
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(57): Billings->saveBilling('uid_78392693087', 'bid_98634778433', 'Glen', 'Bustos', 'bustosglen97@gm...', 'BULACAN', '09231636987', 'ANGAT', 'Banaban', '3012')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 33
+[17-Mar-2023 16:30:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::saveBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 57 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:33
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(57): Billings->saveBilling('uid_24488076106', 'bid_87556973827', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 33
+[17-Mar-2023 16:45:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[17-Mar-2023 16:52:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[17-Mar-2023 16:53:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[17-Mar-2023 17:03:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[17-Mar-2023 22:25:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_78392693087', 'Glen', 'Bustos', 'bustosglen97@gm...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_84209990322')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[18-Mar-2023 13:30:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[19-Mar-2023 01:21:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[20-Mar-2023 08:16:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_78392693087', 'Glen', 'Bustos', 'bustosglen97@gm...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_84209990322')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[20-Mar-2023 10:50:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_78392693087', 'Glen', 'Bustos', 'bustosglen97@gm...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_84209990322')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[20-Mar-2023 12:25:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[20-Mar-2023 15:13:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_24488076106', 'Glen', 'Bustos', 'glenbustos479@g...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_16063397096')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[20-Mar-2023 22:35:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_78392693087', 'Glen', 'Bustos', 'bustosglen97@gm...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_84209990322')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[21-Mar-2023 03:11:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_78392693087', 'Glen', 'Bustos', 'bustosglen97@gm...', 'BULACAN', '09231636987', 'CALUMPIT', 'Frances', '3003', 'bid_84209990322')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[21-Mar-2023 03:41:16 UTC] PHP Notice:  Undefined index: user_token in /home/lixibvmm/public_html/wp-actions/user.php on line 6
+[21-Mar-2023 04:28:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Billings::costumerBilling(), 10 passed in /home/lixibvmm/public_html/wp-actions/checkout.php on line 51 and exactly 11 expected in /home/lixibvmm/public_html/wp-includes/billing.php:49
+Stack trace:
+#0 /home/lixibvmm/public_html/wp-actions/checkout.php(51): Billings->costumerBilling('uid_2023', 'John', 'Doe', 'john@gmail.com', 'BULACAN', '09281737162', 'CALUMPIT', 'Caniogan', '3003', 'bid_48152405051')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/billing.php on line 49
+[21-Mar-2023 04:31:20 UTC] PHP Notice:  Undefined index: data in /home/lixibvmm/public_html/wp-actions/checkout.php on line 155
+[21-Mar-2023 04:31:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 155
+[21-Mar-2023 04:31:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 155
+[21-Mar-2023 04:31:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 155
+[23-Mar-2023 02:11:06 UTC] PHP Notice:  Undefined index: data in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:06 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:11 UTC] PHP Notice:  Undefined index: data in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[23-Mar-2023 02:11:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[13-Apr-2023 02:19:24 UTC] PHP Notice:  Undefined index: data in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[13-Apr-2023 02:19:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[13-Apr-2023 02:19:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156
+[13-Apr-2023 02:19:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/lixibvmm/public_html/wp-actions/checkout.php on line 156

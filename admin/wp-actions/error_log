@@ -1,0 +1,50 @@
+[27-Apr-2023 18:49:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Products::updateProduct(), 6 passed in /home/lixibvmm/public_html/admin/wp-actions/product.php on line 92 and exactly 7 expected in /home/lixibvmm/public_html/wp-includes/product.php:36
+Stack trace:
+#0 /home/lixibvmm/public_html/admin/wp-actions/product.php(92): Products->updateProduct('pid_02984994590', 'cid_89193965455', 'Dahua 4 cameras', 'Specifications ...', '7000', '6')
+#1 {main}
+  thrown in /home/lixibvmm/public_html/wp-includes/product.php on line 36
+[28-Apr-2023 13:39:31 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:39:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:39:40 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:39:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:43:29 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:43:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:44:03 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 13:44:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:20:10 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:20:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:20:18 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:20:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:20:33 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:20:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:22:26 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:22:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:31:08 UTC] PHP Notice:  Undefined variable: voucher in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
+[28-Apr-2023 14:31:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function addLogs() on null in /home/lixibvmm/public_html/admin/wp-actions/user.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/lixibvmm/public_html/admin/wp-actions/user.php on line 61
