@@ -232,26 +232,99 @@ if (isset($_GET['product_id'])) {
 </div>
 
 <!-- add comment form -->
+<!-- add comment form -->
+<div class="add-comment">
+  <h3>Add a Comment</h3>
+  <?php 
+    // check if user is logged in
+    if(isset($_SESSION['user_id'])) { 
+  ?>
+  <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
+    <input type="hidden" name="user_id" value="<?php echo $_SESSION['user_id']; ?>">
+    <label for="comment">Comment:</label>
+    <textarea name="comment" id="comment" rows="5"></textarea>
+    <label for="photo">Photo:</label>
+    <input type="file" name="photo" id="photo">
+    <button type="submit" name="submit_comment">Submit</button>
+  </form>
+  <?php 
+    } else {
+      // display message if user is not logged in
+      echo "<p>Please <a href='login.php'>log in</a> to add a comment.</p>";
+    }
+  ?>
+</div>
+
+<?php
+  // process comment form submission
+  if(isset($_POST['submit_comment'])) {
+    // get form data
+    $product_id = $_POST['product_id'];
+    $user_id = $_POST['user_id'];
+    $comment = mysqli_real_escape_string($con, $_POST['comment']);
+    $photo = $_FILES['photo'];
+    
+    // validate form data
+    if(empty($comment)) {
+      $error_msg = "Please enter a comment.";
+    } else {
+      // check if photo is uploaded
+      if($photo['size'] > 0) {
+        // get photo data
+        $photo_name = $photo['name'];
+        $photo_temp = $photo['tmp_name'];
+        $photo_type = $photo['type'];
+        $photo_size = $photo['size'];
+        
+        // check if photo is a valid image
+        $valid_types = array('image/jpeg', 'image/png', 'image/gif');
+        if(in_array($photo_type, $valid_types)) {
+          // upload photo to server
+          $target_dir = "uploads/";
+          $target_file = $target_dir . basename($photo_name);
+          if(move_uploaded_file($photo_temp, $target_file)) {
+            // insert comment into database
+            $query = "INSERT INTO comments (product_id, user_id, comment, photo) VALUES ('$product_id', '$user_id', '$comment', '$target_file')";
+            $result = mysqli_query($con, $query);
+            if($result) {
+              // refresh page
+              header("Location: detail.php?id=$product_id");
+              exit();
+            } else {
+              $error_msg = "Error adding comment.";
+            }
+          } else {
+            $error_msg = "Error uploading photo.";
+          }
+        } else {
+          $error_msg = "Invalid photo format. Only JPG, PNG, and GIF formats are supported.";
+        }
+      } else {
+        // insert comment into database
+        $query = "INSERT INTO comments (product_id, user_id, comment) VALUES ('$product_id', '$user_id', '$comment')";
+        $result = mysqli_query($con, $query);
+        if($result) {
+          // refresh page
+          header("Location: detail.php?id=$product_id");
+          exit();
+        } else {
+          $error_msg = "Error adding comment.";
+        }
+      }
+    }
+    
+    // display error message if there is one
+   
+    if(isset($error_msg)) {
+        echo "<div class='error-msg'>$error_msg</div>";
+    }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
     <!-- Products Start -->
     <div class="container-fluid py-5 border-top">
         <div class="text-center mb-4">
