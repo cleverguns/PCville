@@ -1,278 +1,109 @@
 <?php
-require_once("wp-includes/config.php");
-require_once("wp-includes/session.php");
+// Start session
+session_start();
 
-if (isset($_GET['_token']) && isset($_GET['product_id'])) {
-    if ($_GET['_token'] === $_SESSION['csrf_token']) {
-        $product_id = htmlspecialchars($_GET['product_id']);
-        $product_query = $conn->query("SELECT * FROM tbl_products WHERE product_id = '{$product_id}' LIMIT 1");
+// Include database config file
+include 'config.php';
 
-        if ($product_query->num_rows > 0) {
-            $product_row = $product_query->fetch_assoc();
-        } else {
-            header("Location: ../index.php");
-        }
-    } else {
-        header("Location: ../");
+// Check if the product id is set in the URL
+if(isset($_GET['id'])){
+    $product_id = $_GET['id'];
+    
+    // Get product details from the database
+    $query = "SELECT * FROM tbl_products WHERE id = $product_id";
+    $result = mysqli_query($conn, $query);
+    
+    if(mysqli_num_rows($result) > 0){
+        $row = mysqli_fetch_assoc($result);
+        $product_name = $row['name'];
+        $product_image = $row['image'];
+        $product_price = $row['price'];
+        $product_desc = $row['description'];
+    }else{
+        // Redirect to home page if product is not found
+        header('Location: index.php');
+        exit();
     }
-} else {
-    header("Location: ../");
+}else{
+    // Redirect to home page if product id is not set
+    header('Location: index.php');
+    exit();
 }
 
-?>
-<!DOCTYPE html>
-<html lang="en">
+// Get comments from the database
+$query = "SELECT c.*, u.username FROM comments c JOIN users u ON c.user_id = u.id WHERE product_id = $product_id";
+$comments_result = mysqli_query($conn, $query);
 
-<head>
-    <meta charset="utf-8">
-    <title>PC-Village - Details</title>
-    <?php
-    include_once("headers.php");
-    ?>
-</head>
+// Handle comment submission
+if(isset($_POST['submit_comment'])){
+    // Get input data
+    $comment = mysqli_real_escape_string($conn, $_POST['comment']);
+    $user_id = $_POST['user_id'];
+    $product_id = $_POST['product_id'];
+    $image_name = $_FILES['image']['name'];
+    $image_tmp_name = $_FILES['image']['tmp_name'];
+    $image_size = $_FILES['image']['size'];
+    $image_type = $_FILES['image']['type'];
+    $image_error = $_FILES['image']['error'];
 
-<body>
+    // Check if image file is uploaded
+    if($image_name != ''){
+        $upload_dir = 'uploads/';
+        $file_extension = pathinfo($image_name, PATHINFO_EXTENSION);
+        $file_name = uniqid() . '.' . $file_extension;
+        $upload_path = $upload_dir . $file_name;
 
-    <!-- Navbar Start -->
-    <?php require_once("navbar.php") ?>
-    <!-- Navbar End -->
+        // Check file type
+        $allowed_types = array('jpg', 'jpeg', 'png', 'gif');
+        if(!in_array(strtolower($file_extension), $allowed_types)){
+            $error_msg = 'Invalid file type. Only JPG, JPEG, PNG and GIF files are allowed.';
+        }elseif($image_size > 5000000){ // Check file size
+            $error_msg = 'File size exceeded. Maximum allowed file size is 5MB.';
+        }elseif($image_error != 0){ // Check for errors
+            $error_msg = 'An error occurred while uploading the file.';
+        }elseif(move_uploaded_file($image_tmp_name, $upload_path)){ // Upload file
+            // Insert comment data into database
+            $query = "INSERT INTO comments (user_id, product_id, comment, image) VALUES ('$user_id', '$product_id', '$comment', '$file_name')";
+            $result = mysqli_query($conn, $query);
 
-    <!-- Page Header Start -->
-    <div class="container-fluid bg-secondary mb-5">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
-            <h1 class="font-weight-semi-bold text-uppercase mb-3">Shop Detail</h1>
-            <div class="d-inline-flex">
-                <p class="m-0"><a href="">Home</a></p>
-                <p class="m-0 px-2">-</p>
-                <p class="m-0">Shop Detail</p>
-            </div>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- Shop Detail Start -->
-    <div class="container-fluid py-5">
-        <div class="row px-xl-5">
-            <div class="col-lg-5 pb-5">
-                <img class="w-100 img-fluid" style="height: 350px;" src="wp-images/products/<?= $product_row['product_photo'] ?>" alt="product-image">
-            </div>
-
-            <div class="col-lg-7 pb-5">
-                <h3 class="text-xl"><?= $product_row['name']; ?></h3>
-                <p class="mb-4"><?= $product_row['description']; ?></p>
-                <div class="mb-3">
-                    <h4 class="text-dark text-lg mb-0 mr-3">Stocks : <?= $product_row['stock'] ?></h4>
-                    <h4 class="text-dark text-lg mb-0 mr-3">Prize : ₱ <?= number_format($product_row['prize']) ?></h4>
-                </div>
-
-                <div class="mb-4 pt-2">
-                    <div class="d-flex">
-                        <p>Quantity </p>
-                        <div class="d-flex justify-content-center mx-4" style="width: 100px; height: 10px;">
-                            <div class="input-group quantity">
-                                <div class="input-group-prepend">
-                                    <button class="btn btn-sm btn-outline-secondary bg-none btn-minus" type="button">
-                                        <i class="fa fa-minus"></i>
-                                    </button>
-                                </div>
-                                <?php
-                                if (isset($user_id)) {
-                                    $getRecord = $conn->query("SELECT qty FROM tbl_carts WHERE user_id = '{$user_id}' AND product_id = '{$product_id}' LIMIT 1");
-                                    if ($getRecord->num_rows > 0) {
-                                        $fetchRecord = $getRecord->fetch_assoc();
-                                        $qtyTotal = $fetchRecord['qty'];
-                                    } else {
-                                        $qtyTotal = 1;
-                                    }
-                                } else {
-                                    $qtyTotal = 1;
-                                }
-
-                                ?>
-                                <input type="text" class="product-qty form-control form-control-sm text-center" style="width: 10px !important;" value="<?= $qtyTotal ?>" disabled>
-                                <div class="input-group-append">
-                                    <button data-max="<?= $product_row['stock'] ?>" class="btn btn-sm btn-outline-primary bg-none btn-plus" type="button">
-                                        <i class="fa fa-plus"></i>
-                                    </button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                    if (isset($user_id)) {
-                        echo ('
-                        <button data-product="' . $product_row['product_id'] . '" data-price="' . $product_row['prize'] . '" data-qty="1" class="btn btn-primary px-3 btn-add-cart"><i class="fa fa-shopping-cart mr-1"></i> Add To
-                        Cart</button>
-                        ');
-                    } else {
-                        echo ('
-                        <a href="#login" data-toggle="modal" data-target="#user-login" class="btn btn-primary px-3"><i class="fas fa-shopping-cart mr-1"></i>Add To Cart</a>
-                        ');
-                    }
-                    ?>
-
-                </div>
-                <div class="d-flex pt-2">
-                    <p class="text-dark font-weight-medium mb-0 mr-2">Share on :</p>
-                    <div class="d-inline-flex" style="gap: 10px;">
-                        <a class="px-3 badge badge-primary p-2 text-white" href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="px-3 badge badge-info text-white p-2" href="" role="button" style="background-color: #55acee;">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="px-3 p-2 badge badge-primary text-white" href="" role="button" style="background-color: #0082ca;">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="px-3 p-2 badge badge-danger text-white" href="" role="button" style="background-color: #c61118;">
-                            <i class="fab fa-pinterest"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Shop Detail End -->
-
-    
-<!-- comment section -->
-
-
-
-<form method="post" action="submit_comment.php" enctype="multipart/form-data">
-  <label for="name">Name:</label>
-  <input type="text" name="name" required>
-  
-  <label for="email">Email:</label>
-  <input type="email" name="email">
-  
-  <label for="comment">Comment:</label>
-  <textarea name="comment" required></textarea>
-  
-  <label for="image">Image:</label>
-  <input type="file" name="image">
-  
-  <input type="submit" value="Submit">
-</form>
-
-
-
-    <!-- Products Start -->
-    <div class="container-fluid py-5 border-top">
-        <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">You May Also Like</span></h2>
-        </div>
-        <div class="row px-xl-5 pb-3">
-            <?php
-
-            $product = $conn->query("SELECT * FROM tbl_products WHERE stock > 0 AND NOT product_id = '{$product_id}'");
-            foreach ($product as $row) {
-                if (isset($user_id)) {
-                    $cart_query = $conn->query("SELECT product_id FROM tbl_carts WHERE user_id = '{$user_id}' AND product_id = '{$row['product_id']}'");
-
-                    if ($cart_query->num_rows > 0) {
-                        $btn_cart = '
-                    <button data-user="' . $user_id . '" data-id="' . $row['product_id'] . '" class="btn btn-sm btn-danger float-right remove-cart"><i
-                                    class="fas fa-times mr-1"></i>Remove to cart</button>';
-                    } else {
-                        $btn_cart = '
-                    <button data-price="' . $row['prize'] . '" data-user="' . $user_id . '" data-id="' . $row['product_id'] . '" class="btn btn-sm btn-primary float-right add-cart"><i class="fas fa-shopping-cart mr-1"></i>Add To Cart</button>
-                    ';
-                    }
-                } else {
-                    $btn_cart = '
-                    <a href="#login" data-toggle="modal" data-target="#user-login" class="btn btn-sm btn-primary float-right"><i class="fas fa-shopping-cart mr-1"></i>Add To Cart</a>
-                    ';
-                }
-                echo ('
-                <div class="col-lg-3 col-md-4 pb-1">
-                    <div class="card product-item border-0 mb-4 rounded">
-                        <div class="card-header product-img position-relative overflow-hidden bg-transparent p-0">
-                            <img class="img-fluid w-100 bg-transparent" style="height: 230px;" src="wp-images/products/' . $row['product_photo'] . '" alt="">
-                        </div>
-                        <div class="card-body text-center px-2">
-                            <h6 class="text-truncate mb-2 font-weight-semi-bold">' . $row['name'] . '</h6>
-                            <div class="text-center">
-                                <h6>₱ ' . $row['prize'] . '</h6>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a href="detail.php?_token=' . $_SESSION['csrf_token'] . '&product_id=' . $row['product_id'] . '" class="btn btn-sm btn-secondary"><i class="fas fa-eye mr-1"></i>View Detail</a>
-                            
-                           ' . $btn_cart . '
-                        </div>
-                    </div>
-                 </div>
-                ');
+            if($result){
+                // Redirect to product detail page
+                header("Location: detail.php?id=$product_id");
+                exit();
+            }else{
+                $error_msg = 'An error occurred while submitting your comment.';
             }
-            ?>
+        }
+    }else{ // If no image is uploaded
+        // Insert comment data into database
+        $query = "INSERT INTO comments (user_id, product_id, comment) VALUES ('$user_id', '$product_id', '$comment')";
+        $result = mysqli_query($conn, $query);
 
-        </div>
-    </div>
-    <!-- Products End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-    <?php
-    require_once("scripts.php");
-    require_once("wp-includes/response.php");
-    if (!isset($user_id)) {
-        require_once("modal.php");
+    // Get the user id and product id from the form data
+    $user_id = $_POST['user_id'];
+    $product_id = $_POST['product_id'];
+    $comment = $_POST['comment'];
+    
+    // Upload the image file
+    $image_file = $_FILES['image_file'];
+    $upload_dir = 'uploads/';
+    $target_file = $upload_dir . basename($image_file['name']);
+    $upload_success = move_uploaded_file($image_file['tmp_name'], $target_file);
+    
+    if (!$upload_success) {
+        echo 'Error uploading image file.';
+        exit;
     }
-    require_once("footer.php");
-    ?>
-
-    <script>
-        $(document).ready(function() {
-            $('.quantity button').on('click', function() {
-                var button = $(this);
-                var oldValue = button.parent().parent().find('input').val();
-                if (button.hasClass('btn-plus')) {
-                    let max = $(this).data("max");
-                    if (oldValue == max) {
-                        console.error("Reached Max Quantity");
-                        var newVal = max;
-                    } else {
-                        var newVal = parseFloat(oldValue) + 1;
-                    }
-                } else {
-                    if (oldValue > 1) {
-                        var newVal = parseFloat(oldValue) - 1;
-                    } else {
-                        newVal = 1;
-                    }
-                }
-                $(".btn-add-cart").attr("data-qty", newVal);
-                button.parent().parent().find('input').val(newVal);
-            });
-
-            $('.btn-add-cart').click(function() {
-                let quantity = $(this).data("qty");
-                let product = $(this).data("product");
-                let price = $(this).data("price");
-                console.log(quantity);
-                $.ajax({
-                    url: 'wp-actions/verifyCart.php', // URL to send the request to
-                    method: 'POST', // HTTP method to use (e.g. POST or GET)
-                    data: {
-                        updateCart: '<?= $_SESSION['csrf_token'] ?>',
-                        product_id: product,
-                        quantity: quantity,
-                        price: price,
-                    }, // Data to send to the server
-                    success: function(data) {
-                        console.log(data);
-                        location.reload();
-                    }
-                });
-            });
-        });
-    </script>
-
-
-</body>
-
-</html>
+    
+    // Insert the comment data into the comments table
+    $insert_query = "INSERT INTO comments (user_id, product_id, comment, image) VALUES ('$user_id', '$product_id', '$comment', '$target_file')";
+    $insert_result = mysqli_query($conn, $insert_query);
+    
+    if (!$insert_result) {
+        echo 'Error inserting comment data into database.';
+        exit;
+    }
+    
+    // Redirect the user back to the detail page
+    header("Location: detail.php?id=$product_id");
+}
