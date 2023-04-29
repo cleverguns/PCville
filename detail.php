@@ -231,7 +231,7 @@ if (isset($_GET['product_id'])) {
     </div>
 </div>
 
-<!-- add comment form -->
+
 <!-- add comment form -->
 <div class="add-comment">
   <h3>Add a Comment</h3>
@@ -328,7 +328,6 @@ if (isset($_GET['product_id'])) {
 
 
 
-<!-- -->
     <!-- Products Start -->
     <div class="container-fluid py-5 border-top">
         <div class="text-center mb-4">
