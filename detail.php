@@ -257,55 +257,46 @@ if (isset($_GET['product_id'])) {
 </div>
 
 <?php
-  // process comment form submission
-  if(isset($_POST['submit_comment'])) {
-    // get form data
-    $product_id = $_POST['product_id'];
-    $user_id = $_POST['user_id'];
-    $comment = mysqli_real_escape_string($con, $_POST['comment']);
-    $photo = $_FILES['photo'];
-    
-    // validate form data
-    if(empty($comment)) {
-      $error_msg = "Please enter a comment.";
+   // process comment form submission
+   if(isset($_POST['submit_comment'])) {
+    // check if user is logged in
+    if(!isset($_SESSION['user_id'])) {
+      $error_msg = "You must be logged in to post a comment.";
     } else {
-      // check if photo is uploaded
-      if($photo['size'] > 0) {
-        // get photo data
-        $photo_name = $photo['name'];
-        $photo_temp = $photo['tmp_name'];
-        $photo_type = $photo['type'];
-        $photo_size = $photo['size'];
+      $user_id = $_SESSION['user_id'];
+      $product_id = $_POST['product_id'];
+      $comment_text = $_POST['comment_text'];
+      $comment_image = $_FILES['comment_image'];
+      
+      // validate comment text
+      if(empty($comment_text)) {
+        $error_msg = "Comment cannot be empty.";
+      }
+      
+      // validate image file
+      if($comment_image['size'] > 0) {
+        $allowed_extensions = array('jpg', 'jpeg', 'png', 'gif');
+        $file_extension = pathinfo($comment_image['name'], PATHINFO_EXTENSION);
         
-        // check if photo is a valid image
-        $valid_types = array('image/jpeg', 'image/png', 'image/gif');
-        if(in_array($photo_type, $valid_types)) {
-          // upload photo to server
-          $target_dir = "uploads/";
-          $target_file = $target_dir . basename($photo_name);
-          if(move_uploaded_file($photo_temp, $target_file)) {
-            // insert comment into database
-            $query = "INSERT INTO comments (product_id, user_id, comment, photo) VALUES ('$product_id', '$user_id', '$comment', '$target_file')";
-            $result = mysqli_query($con, $query);
-            if($result) {
-              // refresh page
-              header("Location: detail.php?id=$product_id");
-              exit();
-            } else {
-              $error_msg = "Error adding comment.";
-            }
-          } else {
-            $error_msg = "Error uploading photo.";
-          }
-        } else {
-          $error_msg = "Invalid photo format. Only JPG, PNG, and GIF formats are supported.";
+        if(!in_array($file_extension, $allowed_extensions)) {
+          $error_msg = "Invalid file format. Only JPG, JPEG, PNG, and GIF are allowed.";
         }
-      } else {
+      }
+      
+      // if there are no errors, insert comment into database
+      if(!isset($error_msg)) {
+        // upload image file
+        $comment_image_path = '';
+        if($comment_image['size'] > 0) {
+          $comment_image_path = 'uploads/' . uniqid() . '_' . $comment_image['name'];
+          move_uploaded_file($comment_image['tmp_name'], $comment_image_path);
+        }
+        
         // insert comment into database
-        $query = "INSERT INTO comments (product_id, user_id, comment) VALUES ('$product_id', '$user_id', '$comment')";
+        $query = "INSERT INTO comments (user_id, product_id, comment_text, comment_image_path) VALUES ('$user_id', '$product_id', '$comment_text', '$comment_image_path')";
         $result = mysqli_query($con, $query);
+        
         if($result) {
-          // refresh page
           header("Location: detail.php?id=$product_id");
           exit();
         } else {
@@ -313,17 +304,31 @@ if (isset($_GET['product_id'])) {
         }
       }
     }
-    
-    // display error message if there is one
-    
-    if(isset($error_msg)) {
-        echo "<div class='error-msg'>$error_msg</div>";
-    }
-    ?>
+  }
+  
+  // display error message if there is one
+  if(isset($error_msg)) {
+    echo "<div class='error-msg'>$error_msg</div>";
+  }
+?>
+<!-- add comment form -->
+<form method="post" action="" enctype="multipart/form-data">
+  <input type="hidden" name="product_id" value="<?php echo $product_id; ?>">
+  <div class="form-group">
+    <label for="comment_text">Comment:</label>
+    <textarea name="comment_text" id="comment_text" class="form-control" required><?php if(isset($_POST['comment_text'])) { echo $_POST['comment_text']; } ?></textarea>
+  </div>
+  <div class="form-group">
+    <label for="comment_image">Image:</label>
+    <input type="file" name="comment_image" id="comment_image" class="form-control-file">
+  </div>
+  <button type="submit" name="submit_comment" class="btn btn-primary">Post Comment</button>
+</form>
 
 
 
 
+<!-- -->
     <!-- Products Start -->
     <div class="container-fluid py-5 border-top">
         <div class="text-center mb-4">
